@@ -1,6 +1,5 @@
-export const particlesOptions = {
-    particles: {
-      number: {
+{/*export const particlesOptions = {
+     number: {
         value: 60,
         density: {
           enable: true,
@@ -107,4 +106,4 @@ export const particlesOptions = {
       },
     },
     retina_detect: true,
-  };
+  };*/}
