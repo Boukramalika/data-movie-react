@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
-//import Particles from "react-particles-js";
-//import { particlesOptions } from "./particlesOptions";
+import Particles from "react-particles-js";
+import { particlesOptions } from "./particlesOptions";
 import Search from './components/Search.jsx'
 import Results from './components/Results'
 import Popup from './components/Popup'
@@ -69,10 +69,10 @@ function App() {
         {(typeof state.selected.Title != "undefined") ? <Popup selected={state.selected} closePopup={closePopup} /> : false}
 
       </div>
-      {/*<Particles
+      <Particles
         className="particles particles-box"
         params={particlesOptions}
-      />*/}
+      />
 
     </div>
 

@@ -13,11 +13,12 @@
     "react-reveal": "^1.2.2",
     "react-scripts": "4.0.3",
     "react-tilt": "^0.1.4",
+    "tsparticles": "^1.33.3",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
-    "deploy":"git push heroku master",
+    "deploy": "git push heroku master",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
